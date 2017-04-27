@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
-	<Version>1.1.0</Version>
+	<Version>1.2.0</Version>
 	<Description>Utilities for working with ASP.NET Core.</Description>
 	<PackageProjectUrl>https://github.com/OneFrameLink/Ofl.AspNetCore</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/OneFrameLink/Ofl.AspNetCore.git</RepositoryUrl>
