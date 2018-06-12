@@ -11,6 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.AspNetCore", "src\Ofl.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.AspNetCore.Tests", "test\Ofl.AspNetCore.Tests\Ofl.AspNetCore.Tests.csproj", "{6B8DACD1-1790-4866-ACC0-F27849B6BAF5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{D839348F-3F1B-4449-B5E3-98FF6027D44C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.AspNetCore.sln.DotSettings = Ofl.AspNetCore.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,5 +63,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{81577668-46F2-4496-A548-385F74135455} = {455084EA-7CCC-47F4-A054-D2D01F7EE40F}
 		{6B8DACD1-1790-4866-ACC0-F27849B6BAF5} = {B8CA336C-24A4-4414-A1C1-735E07F080D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1628F50-160D-48A3-9766-0174BABD6DA4}
 	EndGlobalSection
 EndGlobal
