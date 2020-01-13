@@ -47,7 +47,8 @@ namespace Ofl.AspNetCore.BuilderExtensions
             if (headers == null) throw new ArgumentNullException(nameof(headers));
 
             // Materialize.
-            IReadOnlyCollection<KeyValuePair<string, StringValues>> hdrs = new ReadOnlyCollection<KeyValuePair<string, StringValues>>(headers.ToList());
+            IReadOnlyCollection<KeyValuePair<string, StringValues>> hdrs = 
+                new ReadOnlyCollection<KeyValuePair<string, StringValues>>(headers.ToList());
 
             // If there are no headers, get out, do nothing.
             if (hdrs.Count == 0) return applicationBuilder;
